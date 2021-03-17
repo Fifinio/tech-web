@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header-bar {
+    height: 8px;
+    background-color: #252627;
+}
+#subheader {
+    margin-top: 10px;
+    color: #5094d8;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888;
+}
+#navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#5094d8;
+    padding-left: 2px;
+}
+
+#news {
+    display: flex;
+}
+#news1 p {
+    text-align: center;
+}
+#circles {
+    display: flex;
+    justify-content: center;
+}
+#circle1 {
+    background-color: #5094d8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+#circle1:hover {
+    opacity: 0.85;
+}
+#circle2 {
+    background-color: #5094d8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin-left: -30px;
+}
+#circle2:hover {
+    opacity: 0.85;
+}
+#footer {
+    background-image: url(zabek.jpg);
+    background-color: #252627;
+    background-repeat: repeat-x;
+    height: 200px;
+    margin-top: 40px;
+    color: #eee;
+    padding: 40px;
+}
